@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daire</title>
+</head>
+
+<body>
+    <button onclick="alan()">Daire Alan</button>
+
+    <p id="alanlar"></p>
+    <script>
+        function alan(){
+        let a = prompt("Lütfen 1. yarıçapı giriniz", "")
+        let b = prompt("Lütfen 2. yarıçapı giriniz", "")
+        let sonuc=a*a*b*b
+        document.getElementById("alanlar").innerHTML=sonuc+("ππ");
+}
+    </script>
+</body>
+
+</html>
